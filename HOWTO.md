@@ -29,3 +29,5 @@ Using `raspberry.local:50005` may not work on all android devices, if it doesn't
 
 After reboot you can check the script is running with:
 `sudo screen -r wixel`
+
+Note: Exiting the screen session with control + c will actually kill the script. To close the screen without termination after viewing use control + a, then press d. The script continues to run and you can use `sudo screen -r wixel` again and again.
