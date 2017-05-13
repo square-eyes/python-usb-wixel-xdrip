@@ -2,7 +2,7 @@
 
 >Based on using the Raspbian distribution.
 
-First login to your Pi and set it up with a .local name, see: [assigning a .local address](http://www.howtogeek.com/167190/how-and-why-to-assign-the-.local-domain-to-your-raspberry-pi/)
+Set a .local hostname address by going to raspi-config as sudo and setting a hostname (option 2). This is so that you can connect to your Pi from xDrip+ with a human readable address, rather then Your Pi's direct IP. e.g. "raspiusbwixel.local". Note you don't need to type .local in the hostname screen, it's implied.
 
 Make sure packages are installed:
 
